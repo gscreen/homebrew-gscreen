@@ -1,11 +1,6 @@
-# Gscreen Gscreen
+# gScreen + macOS
 
-## How do I install these formulae?
+https://photoscreensaver.app
 
-`brew install gscreen/gscreen/<formula>`
-
-Or `brew tap gscreen/gscreen` and then `brew install <formula>`.
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- `brew tap gscreen/gscreen`
+- `brew install gscreen`
