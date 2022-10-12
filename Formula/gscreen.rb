@@ -16,7 +16,7 @@ class Gscreen < Formula
   @@filename = "gscreen-macos-#{arch}.bin"
 
   sha256 case arch
-  when "amd64" then "2b4bfdc1d3da593ead54b7a025f06597f5953e8a8e823867b8a74dfa08d73d07"
+  when "amd64" then "bead8d7c6da2d6f2a1db3e1738223e084ed0e96f1f6342f7f6e740fe1fdf2e5e"
   when "arm64" then "598df19f34dbfdd6bda3383627bc065a8abdc1be400f1e5936a4e588d92424bc"
   else
     raise "gScreen: Unsupported system #{arch}"
