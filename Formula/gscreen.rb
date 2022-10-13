@@ -10,14 +10,14 @@ class Gscreen < Formula
 
   desc "Slideshows across all your Google Photos media"
   homepage "https://photoscreensaver.app"
-  version "1.2.0"
+  version "0.4.0"
   url "https://gscreen-releases.s3.amazonaws.com/v#{version}/gscreen-macos-#{arch}.bin.tar.gz"
 
   @@filename = "gscreen-macos-#{arch}.bin"
 
   sha256 case arch
-  when "amd64" then "bead8d7c6da2d6f2a1db3e1738223e084ed0e96f1f6342f7f6e740fe1fdf2e5e"
-  when "arm64" then "598df19f34dbfdd6bda3383627bc065a8abdc1be400f1e5936a4e588d92424bc"
+  when "amd64" then "a62e5df333559d9c574ea570ae419560786b7b30867cd8136820b13a01e80a21"
+  when "arm64" then "ca22d8fa111182882e9604654a25b4683b0ecfc0caf314c889cf49281ae3b02c"
   else
     raise "gScreen: Unsupported system #{arch}"
   end
